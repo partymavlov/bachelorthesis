@@ -1,0 +1,17 @@
+term_ID,description,frequency,plot_X,plot_Y,plot_size,log10 p-value,uniqueness,dispensability,representative,eliminated
+GO:0003824,catalytic activity,34.69%,-0.897,5.165,3.779,-6.8153,0.915,0,3824,0
+GO:0016491,oxidoreductase activity,4.44%,7.132,-2.111,2.886,-3.8761,0.644,0,16491,0
+GO:0043167,ion binding,35.70%,-4.361,1.496,3.791,-2.1357,0.91,0,43167,0
+GO:0046872,metal ion binding,23.98%,-4.305,-4.769,3.618,-2.1607,0.84,0.023,46872,0
+GO:0016655,"oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor",0.34%,4.876,2.124,1.771,-2.9844,0.428,0.157,16655,0
+GO:0050136,NADH dehydrogenase (quinone) activity,0.26%,null,null,1.663,-2.3586,0.422,0.997,16655,1
+GO:0008137,NADH dehydrogenase (ubiquinone) activity,0.26%,null,null,1.663,-2.3586,0.422,0.866,16655,1
+GO:0003954,NADH dehydrogenase activity,0.26%,null,null,1.663,-2.3586,0.435,0.866,16655,1
+GO:0008236,serine-type peptidase activity,1.64%,4.943,-5.243,2.455,-3.0605,0.453,0.191,8236,0
+GO:0070011,"peptidase activity, acting on L-amino acid peptides",4.10%,null,null,2.851,-1.6749,0.446,0.831,8236,1
+GO:0004252,serine-type endopeptidase activity,1.51%,null,null,2.42,-1.659,0.455,0.971,8236,1
+GO:0016787,hydrolase activity,15.25%,5.113,-1.901,3.422,-1.9451,0.622,0.277,16787,0
+GO:0017171,serine hydrolase activity,1.66%,4.039,-4.455,2.459,-3.2581,0.574,0.388,17171,0
+GO:0043169,cation binding,24.50%,-3.907,-5.753,3.627,-2.1036,0.841,0.467,43169,0
+GO:0016651,"oxidoreductase activity, acting on NAD(P)H",0.62%,5.31,1.413,2.037,-1.7749,0.511,0.553,16651,0
+GO:0004180,carboxypeptidase activity,0.25%,4.156,-6.477,1.653,-1.5845,0.527,0.608,4180,0

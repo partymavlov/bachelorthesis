@@ -1,0 +1,14 @@
+term_ID,description,frequency,log10 p-value,uniqueness,dispensability,representative,eliminated
+GO:0001678,cellular glucose homeostasis,0.05%,-2.0628,0.572,0,1678,0
+GO:0071322,cellular response to carbohydrate stimulus,0.02%,-2.2148,0.339,0.92,1678,1
+GO:0071331,cellular response to hexose stimulus,0.02%,-2.0628,0.328,0.998,1678,1
+GO:0071326,cellular response to monosaccharide stimulus,0.02%,-2.0628,0.329,0.98,1678,1
+GO:0071333,cellular response to glucose stimulus,0.02%,-2.0628,0.214,0.902,1678,1
+GO:0030183,B cell differentiation,0.02%,-1.3677,0.705,0.116,30183,0
+GO:0080135,regulation of cellular response to stress,0.18%,-1.9987,0.459,0.181,80135,0
+GO:0051254,positive regulation of RNA metabolic process,0.54%,-1.389,0.603,0.235,51254,0
+GO:0010906,regulation of glucose metabolic process,0.04%,-1.3694,0.661,0.292,10906,0
+GO:0071229,cellular response to acid chemical,0.07%,-1.3677,0.442,0.312,71229,0
+GO:0032774,RNA biosynthetic process,10.93%,-1.3473,0.748,0.414,32774,0
+GO:0007276,gamete generation,0.16%,-1.3154,0.743,0.49,7276,0
+GO:0048585,negative regulation of response to stimulus,0.34%,-1.3073,0.479,0.741,48585,0

@@ -1,0 +1,12 @@
+term_ID,description,frequency,log10 p-value,uniqueness,dispensability,representative,eliminated
+GO:0005576,extracellular region,25.63%,-1.5674,0.857,0,5576,0
+GO:0005615,extracellular space,8.46%,-5.4112,0.825,0,5615,0
+GO:0005775,vacuolar lumen,0.91%,-3.7122,0.666,0,5775,0
+GO:0098803,respiratory chain complex,0.46%,-2.0123,0.327,0,98803,0
+GO:0045271,respiratory chain complex I,0.27%,-1.8443,0.224,0.997,98803,1
+GO:0005746,mitochondrial respiratory chain,0.50%,-1.7629,0.335,0.974,98803,1
+GO:0005747,mitochondrial respiratory chain complex I,0.27%,-1.8443,0.211,0.919,98803,1
+GO:0070469,respiratory chain,0.54%,-1.4652,0.71,0.119,70469,0
+GO:0030964,NADH dehydrogenase complex,0.27%,-1.8443,0.414,0.169,30964,0
+GO:1990204,oxidoreductase complex,0.57%,-1.3928,0.561,0.442,1990204,0
+GO:0043202,lysosomal lumen,0.50%,-2.8004,0.667,0.687,43202,0
