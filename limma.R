@@ -1,0 +1,21 @@
+library(limma)
+library(affy)
+exprs<-read.table("E:/Bachelor/Bachelor/11 Cancer Cell Lines/differential expression analysis/A549-GAMG/exprs.txt")
+genes<-read.table("E:/Bachelor/Bachelor/11 Cancer Cell Lines/differential expression analysis/A549-GAMG/fdat.txt")
+pdat<-read.table("E:/Bachelor/Bachelor/11 Cancer Cell Lines/differential expression analysis/A549-GAMG/pdat.txt")
+design <- cbind(WT=c(1,1,1,0,0,0),MU=c(0,0,0,1,1,1))
+#data<-cbind(genes, exprs)
+#data
+#dim(data)
+#dim(design)
+fit<-lmFit(exprs, design)
+cont.matrix <- makeContrasts(MUvsWT=MU-WT, levels=design)
+fit2 <- contrasts.fit(fit, cont.matrix)
+fit2 <- eBayes(fit2)
+topTable(fit2, adjust="BH")
+
+
+design <- cbind(WT=1,MUvsWT=c(0,0,0,1,1,1))
+fit <- lmFit(exprs, design)
+fit <- eBayes(fit)
+topTable(fit, coef="MUvsWT", adjust="BH")
